@@ -3,7 +3,7 @@
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 0;
@@ -17,7 +17,7 @@
   }
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     left: 0;
@@ -106,24 +106,24 @@
     margin-bottom: 15px;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: -450px;
       left: -280px;
       width: 720px;
       height: 720px;
-      background: url('../../assets/icons/logo-light-gray-2.svg') no-repeat;
+      background: url("./assets/icons/logo-light-gray-2.svg") no-repeat;
       z-index: -1;
     }
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: -345px;
       left: 98%;
       width: 1000px;
       height: 1000px;
-      background: url('../../assets/icons/logo-light-gray.svg') no-repeat;
+      background: url("../../assets/icons/logo-gray.svg") no-repeat;
       z-index: -1;
     }
   }
@@ -156,11 +156,11 @@
     }
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       top: -80px;
       left: 80px;
-      background: url('../../assets/img/dashboard-big.png') no-repeat;
+      background: url("../../assets/img/dashboard-big.png") no-repeat;
       width: 805px;
       height: 550px;
       box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
@@ -208,14 +208,14 @@
         }
 
         &::before {
-          content: '';
+          content: "";
           position: absolute;
           width: 24px;
           height: 24px;
           top: 0;
           left: 0;
           visibility: visible;
-          background: url('../../assets/icons/menu-icon.svg') no-repeat;
+          background: url("../../assets/icons/menu-icon.svg") no-repeat;
         }
       }
     }
