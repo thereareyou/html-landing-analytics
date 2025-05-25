@@ -206,7 +206,7 @@ body {
   left: -280px;
   width: 720px;
   height: 720px;
-  background: url("../../assets/icons/logo-light-gray-2.svg") no-repeat;
+  background: url("assets/icons/logo-light-gray-2.svg") no-repeat;
   z-index: -1;
 }
 .dashboard__title::before {
@@ -216,7 +216,7 @@ body {
   left: 98%;
   width: 1000px;
   height: 1000px;
-  background: url("../../assets/icons/logo-light-gray.svg") no-repeat;
+  background: url("assets/icons/logo-gray.svg") no-repeat;
   z-index: -1;
 }
 .dashboard__text {
@@ -259,7 +259,7 @@ body {
   position: absolute;
   top: -80px;
   left: 80px;
-  background: url("../../assets/img/dashboard-big.png") no-repeat;
+  background: url("assets/img/dashboard-big.png") no-repeat;
   width: 805px;
   height: 550px;
   box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
